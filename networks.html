@@ -9,7 +9,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
 
-    <title>&lt;no title&gt; &#8212; Two kind of artists</title>
+    <title>networks &#8212; Two kind of artists</title>
   
   
   
@@ -156,8 +156,9 @@ const thebe_selector_output = ".output, .cell_output"
                 </a>
             </li>
         </ul>
-        <ul class="nav bd-sidenav">
+        <ul class="current nav bd-sidenav">
 <li class="toctree-l1"><a class="reference internal" href="stream.html">stream</a></li>
+<li class="toctree-l1 current active"><a class="current reference internal" href="#">networks</a></li>
 <li class="toctree-l1"><a class="reference internal" href="worship.html">worship</a></li>
 </ul>
 
@@ -329,9 +330,7 @@ document.write(`
   </button>
 `);
 </script>
-<label class="sidebar-toggle secondary-toggle btn btn-sm" for="__secondary"title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
-    <span class="fa-solid fa-list"></span>
-</label>
+
 </div></div>
       
     </div>
@@ -342,19 +341,11 @@ document.write(`
               
 
 <div id="jb-print-docs-body" class="onlyprint">
-    <h1><no title></h1>
+    <h1>networks</h1>
     <!-- Table of contents -->
     <div id="print-main-content">
         <div id="jb-print-toc">
             
-            <div>
-                <h2> Contents </h2>
-            </div>
-            <nav aria-label="Page">
-                <ul class="simple visible nav section-nav flex-column">
-</ul>
-
-            </nav>
         </div>
     </div>
 </div>
@@ -364,7 +355,9 @@ document.write(`
 <div id="searchbox"></div>
                 <article class="bd-article" role="main">
                   
-  <div class="cell tag_hide-input docutils container">
+  <section class="tex2jax_ignore mathjax_ignore" id="networks">
+<h1>networks<a class="headerlink" href="#networks" title="Permalink to this heading">#</a></h1>
+<div class="cell tag_hide-input docutils container">
 <details class="hide above-input">
 <summary aria-label="Toggle hidden content">
 <span class="collapsed">Show code cell source</span>
@@ -379,16 +372,16 @@ document.write(`
 
 <span class="c1">#plt.figure(figsize=[2, 2])</span>
 <span class="n">G</span> <span class="o">=</span> <span class="n">nx</span><span class="o">.</span><span class="n">DiGraph</span><span class="p">()</span>
-<span class="n">G</span><span class="o">.</span><span class="n">add_node</span><span class="p">(</span><span class="s2">&quot;X1&quot;</span><span class="p">,</span>  <span class="n">pos</span> <span class="o">=</span> <span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="mi">3</span><span class="p">)</span> <span class="p">)</span>
-<span class="n">G</span><span class="o">.</span><span class="n">add_node</span><span class="p">(</span><span class="s2">&quot;X2&quot;</span><span class="p">,</span>  <span class="n">pos</span> <span class="o">=</span> <span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">3</span><span class="p">)</span> <span class="p">)</span>
-<span class="n">G</span><span class="o">.</span><span class="n">add_node</span><span class="p">(</span><span class="s2">&quot;H11&quot;</span><span class="p">,</span> <span class="n">pos</span> <span class="o">=</span> <span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="mi">2</span><span class="p">)</span> <span class="p">)</span>
-<span class="n">G</span><span class="o">.</span><span class="n">add_node</span><span class="p">(</span><span class="s2">&quot;H12&quot;</span><span class="p">,</span> <span class="n">pos</span> <span class="o">=</span> <span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">)</span> <span class="p">)</span>
-<span class="n">G</span><span class="o">.</span><span class="n">add_node</span><span class="p">(</span><span class="s2">&quot;H21&quot;</span><span class="p">,</span> <span class="n">pos</span> <span class="o">=</span> <span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="mi">1</span><span class="p">)</span> <span class="p">)</span>
-<span class="n">G</span><span class="o">.</span><span class="n">add_node</span><span class="p">(</span><span class="s2">&quot;H22&quot;</span><span class="p">,</span> <span class="n">pos</span> <span class="o">=</span> <span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">1</span><span class="p">)</span> <span class="p">)</span>
-<span class="n">G</span><span class="o">.</span><span class="n">add_node</span><span class="p">(</span><span class="s2">&quot;Y&quot;</span><span class="p">,</span> <span class="n">pos</span> <span class="o">=</span> <span class="p">(</span><span class="mf">.5</span><span class="p">,</span> <span class="mi">0</span><span class="p">))</span>
-<span class="n">G</span><span class="o">.</span><span class="n">add_edges_from</span><span class="p">([</span> <span class="p">(</span><span class="s2">&quot;X1&quot;</span><span class="p">,</span> <span class="s2">&quot;H11&quot;</span><span class="p">),</span>  <span class="p">(</span><span class="s2">&quot;X1&quot;</span><span class="p">,</span> <span class="s2">&quot;H12&quot;</span><span class="p">),</span>  <span class="p">(</span><span class="s2">&quot;X2&quot;</span><span class="p">,</span> <span class="s2">&quot;H11&quot;</span><span class="p">),</span>  <span class="p">(</span><span class="s2">&quot;X2&quot;</span><span class="p">,</span> <span class="s2">&quot;H12&quot;</span><span class="p">)])</span>
-<span class="n">G</span><span class="o">.</span><span class="n">add_edges_from</span><span class="p">([(</span><span class="s2">&quot;H11&quot;</span><span class="p">,</span> <span class="s2">&quot;H21&quot;</span><span class="p">),</span> <span class="p">(</span><span class="s2">&quot;H11&quot;</span><span class="p">,</span> <span class="s2">&quot;H22&quot;</span><span class="p">),</span> <span class="p">(</span><span class="s2">&quot;H12&quot;</span><span class="p">,</span> <span class="s2">&quot;H21&quot;</span><span class="p">),</span> <span class="p">(</span><span class="s2">&quot;H12&quot;</span><span class="p">,</span> <span class="s2">&quot;H22&quot;</span><span class="p">)])</span>
-<span class="n">G</span><span class="o">.</span><span class="n">add_edges_from</span><span class="p">([(</span><span class="s2">&quot;H21&quot;</span><span class="p">,</span> <span class="s2">&quot;Y&quot;</span><span class="p">),</span> <span class="p">(</span><span class="s2">&quot;H22&quot;</span><span class="p">,</span> <span class="s2">&quot;Y&quot;</span><span class="p">)])</span>
+<span class="n">G</span><span class="o">.</span><span class="n">add_node</span><span class="p">(</span><span class="s2">&quot;Correlli&quot;</span><span class="p">,</span>  <span class="n">pos</span> <span class="o">=</span> <span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="mi">3</span><span class="p">)</span> <span class="p">)</span>
+<span class="n">G</span><span class="o">.</span><span class="n">add_node</span><span class="p">(</span><span class="s2">&quot;Vivaldi&quot;</span><span class="p">,</span>  <span class="n">pos</span> <span class="o">=</span> <span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">3</span><span class="p">)</span> <span class="p">)</span>
+<span class="n">G</span><span class="o">.</span><span class="n">add_node</span><span class="p">(</span><span class="s2">&quot;Handel&quot;</span><span class="p">,</span> <span class="n">pos</span> <span class="o">=</span> <span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="mi">2</span><span class="p">)</span> <span class="p">)</span>
+<span class="n">G</span><span class="o">.</span><span class="n">add_node</span><span class="p">(</span><span class="s2">&quot;Bach&quot;</span><span class="p">,</span> <span class="n">pos</span> <span class="o">=</span> <span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">)</span> <span class="p">)</span>
+<span class="n">G</span><span class="o">.</span><span class="n">add_node</span><span class="p">(</span><span class="s2">&quot;Mozart&quot;</span><span class="p">,</span> <span class="n">pos</span> <span class="o">=</span> <span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="mi">1</span><span class="p">)</span> <span class="p">)</span>
+<span class="n">G</span><span class="o">.</span><span class="n">add_node</span><span class="p">(</span><span class="s2">&quot;Haydn&quot;</span><span class="p">,</span> <span class="n">pos</span> <span class="o">=</span> <span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">1</span><span class="p">)</span> <span class="p">)</span>
+<span class="n">G</span><span class="o">.</span><span class="n">add_node</span><span class="p">(</span><span class="s2">&quot;Beethoven&quot;</span><span class="p">,</span> <span class="n">pos</span> <span class="o">=</span> <span class="p">(</span><span class="mf">.5</span><span class="p">,</span> <span class="mi">0</span><span class="p">))</span>
+<span class="n">G</span><span class="o">.</span><span class="n">add_edges_from</span><span class="p">([</span> <span class="p">(</span><span class="s2">&quot;Correlli&quot;</span><span class="p">,</span> <span class="s2">&quot;Handel&quot;</span><span class="p">),</span>  <span class="p">(</span><span class="s2">&quot;Correlli&quot;</span><span class="p">,</span> <span class="s2">&quot;Bach&quot;</span><span class="p">),</span>  <span class="p">(</span><span class="s2">&quot;Vivaldi&quot;</span><span class="p">,</span> <span class="s2">&quot;Handel&quot;</span><span class="p">),</span>  <span class="p">(</span><span class="s2">&quot;Vivaldi&quot;</span><span class="p">,</span> <span class="s2">&quot;Bach&quot;</span><span class="p">)])</span>
+<span class="n">G</span><span class="o">.</span><span class="n">add_edges_from</span><span class="p">([(</span><span class="s2">&quot;Handel&quot;</span><span class="p">,</span> <span class="s2">&quot;Mozart&quot;</span><span class="p">),</span> <span class="p">(</span><span class="s2">&quot;Handel&quot;</span><span class="p">,</span> <span class="s2">&quot;Haydn&quot;</span><span class="p">),</span> <span class="p">(</span><span class="s2">&quot;Bach&quot;</span><span class="p">,</span> <span class="s2">&quot;Mozart&quot;</span><span class="p">),</span> <span class="p">(</span><span class="s2">&quot;Bach&quot;</span><span class="p">,</span> <span class="s2">&quot;Haydn&quot;</span><span class="p">)])</span>
+<span class="n">G</span><span class="o">.</span><span class="n">add_edges_from</span><span class="p">([(</span><span class="s2">&quot;Mozart&quot;</span><span class="p">,</span> <span class="s2">&quot;Beethoven&quot;</span><span class="p">),</span> <span class="p">(</span><span class="s2">&quot;Haydn&quot;</span><span class="p">,</span> <span class="s2">&quot;Beethoven&quot;</span><span class="p">)])</span>
 <span class="n">nx</span><span class="o">.</span><span class="n">draw</span><span class="p">(</span><span class="n">G</span><span class="p">,</span> 
         <span class="n">nx</span><span class="o">.</span><span class="n">get_node_attributes</span><span class="p">(</span><span class="n">G</span><span class="p">,</span> <span class="s1">&#39;pos&#39;</span><span class="p">),</span> 
         <span class="n">with_labels</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span> 
@@ -406,9 +399,10 @@ document.write(`
 </div>
 </details>
 <div class="cell_output docutils container">
-<img alt="_images/4550a8fccc917250e9b9c2357d5848cfcc639012b035907a7304a91a66db0947.png" src="_images/4550a8fccc917250e9b9c2357d5848cfcc639012b035907a7304a91a66db0947.png" />
+<img alt="_images/a41186bfd4f1096833df23808f4410a01b957f58e7f9b63ab033c558972d49c8.png" src="_images/a41186bfd4f1096833df23808f4410a01b957f58e7f9b63ab033c558972d49c8.png" />
 </div>
 </div>
+</section>
 
     <script type="text/x-thebe-config">
     {
@@ -462,20 +456,6 @@ document.write(`
             </div>
             
             
-              
-                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
-
-  <div class="sidebar-secondary-item">
-  <div class="page-toc tocsection onthispage">
-    <i class="fa-solid fa-list"></i> Contents
-  </div>
-  <nav class="bd-toc-nav page-toc">
-    <ul class="simple visible nav section-nav flex-column">
-</ul>
-
-  </nav></div>
-
-</div></div>
               
             
           </div>
