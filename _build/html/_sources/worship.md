@@ -18,6 +18,10 @@ Reverence isn't the same as ancestral worship. Ludwig inspired worship rather th
 
 Chopin must never be included in this list. His tributes to Polish folklore say it all.
 
+The worshiper never considers usurpation. And that is why Beethoven's place in the pantheon is secure. He inspired worship. But the type-I artist who reveres without worshiping will, ultimately, usurp his forebears. And once senses a dwindling regard of the forebear as this artists reputation grows.
+
+Just think: Corelli-Handel, Vivaldi-Bach, and Haydn-Mozart. Posterity is the benefactor of these lineages.
+
 ```{code-cell}
 print(2 + 2)
 ```
