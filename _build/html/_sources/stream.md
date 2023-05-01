@@ -8,3 +8,6 @@
      * harder, better, faster, stronger - daft punk
      * stonger - kanye west
 
+* collaboration
+     * love shoulda brought you home - toni braxton/babyface
+     * shoulda - lucky daye/d'mille/babyface 
