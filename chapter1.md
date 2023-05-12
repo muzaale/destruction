@@ -21,3 +21,7 @@
      * [don't you worry](https://www.youtube.com/watch?v=mMTkujnftIs) 'bout a thing - stevie wonder 
      * all this love - debarge 
      * i'll be there - babyface/el debarge
+
++ essence
+     * [double](https://www.youtube.com/watch?v=MXs3vD-A4gs) back - coco jones
+     * [rain](https://www.youtube.com/watch?v=QQyXHfOy1UU) - swv
