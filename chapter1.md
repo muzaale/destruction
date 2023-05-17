@@ -22,6 +22,8 @@
      * all this love - debarge 
      * i'll be there - babyface/el debarge
 
-+ essence
-     * [double](https://www.youtube.com/watch?v=MXs3vD-A4gs) back - coco jones
-     * [rain](https://www.youtube.com/watch?v=QQyXHfOy1UU) - swv
++ essence <-> coincidence
+     * [rain on me](https://www.youtube.com/watch?v=WrGG3rbcBrg) - dawkins & dawkins 1994
+     * [rain on me](https://www.youtube.com/watch?v=QQyXHfOy1UU) - swv 1997
+     * [double](https://www.youtube.com/watch?v=MXs3vD-A4gs) back - coco jones 2023
+
