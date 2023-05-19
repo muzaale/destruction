@@ -27,3 +27,11 @@
      * [rain on me](https://www.youtube.com/watch?v=QQyXHfOy1UU) - swv 1997
      * [double](https://www.youtube.com/watch?v=MXs3vD-A4gs) back - coco jones 2023
 
++ xerox
+     * [have you seen her](https://www.youtube.com/watch?v=xVYxKRXDT2I) - chi-lites
+     * have you seen her - mc hammer
+     * [are you my woman (tell me so)](https://www.youtube.com/watch?v=hm2YjDENPPU) - chi-lites
+     * crazy in love - beyoncé
+     * [oh, calcutta](https://www.youtube.com/watch?v=9W214Id_wU8) - the meters (1:40/2:44)
+     * 1 thing - amerie
+     * rich harrison - quintessential `type-i artist!!!`
