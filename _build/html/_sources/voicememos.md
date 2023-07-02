@@ -1,7 +1,5 @@
 # voice 
 
-# voice 
-
 [2018112901.m4a](https://muzaale.github.io/destruction/_downloads/3f1c821e46a544ca53239b19324c8d92/2018112901.m4a)    
 [2018112902.m4a](https://muzaale.github.io/destruction/_downloads/22fde33c1beffb6dcaa68e916e73b271/2018112902.m4a)    
 [2019021603.m4a](https://muzaale.github.io/destruction/_downloads/24a8e6994570110c5d933a2145eb5171/2019021603.m4a)    
